@@ -1,1 +1,29 @@
 TIL 첫번째 시작
+==============
+깃허브 이해하기
+-----------
+* __add : 커밋할 파일 선택하기__
+	* _Stage 영역은 커밋할 파일들을 올려놓는 가상 영역이다. 이 때 올려놓는 작업이 add이다._
++ __commit : 로컬 저장소에 변경사항을 저장하기__
+	+ _commit 명령을 통해 로컬 저장소의 현재 branch에 stage 영역에 올린 사항들을 반영한 새로운 commit을 작성한다._
+- __push: 로컬 저장소의 변경 내용을 원격 저장소로 보내기__
+	- _commit 후 변경사항을 원격 저장소의 master branch에 전송한다._
+
+* * *
+깃허브에 Commit 하기 (명령어 정리)
+------------
+1. cd 원하는 폴더
+2. git remote add origin 깃허브 레포지토리 주소(ex https://github.com/dddoseung/TIL.git)
+3. git remote -v
+4. git add 원하는 파일 or 프로젝트
+5. git commit -m "구체적인 현재진행형 설명"
+6. git push origin master
+
+* * *
+<참고주소>
+---
+<https://imasoftwareengineer.tistory.com/3>
+<https://dololak.tistory.com/304>
+<http://blog.naver.com/PostView.nhn?blogId=angelkim88&logNo=221565694228&parentCategoryNo=&categoryNo=51&viewDate=&isShowPopularPosts=false&from=postView>
+
+* * *
