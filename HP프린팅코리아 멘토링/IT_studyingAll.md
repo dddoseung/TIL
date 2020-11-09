@@ -1,6 +1,6 @@
 3차 hp멘토링(개인멘토링)
 =====
-<img src="https://github.com/dddoseung/TIL/blob/master/HP%ED%94%84%EB%A6%B0%ED%8C%85%EC%BD%94%EB%A6%AC%EC%95%84%20%EB%A9%98%ED%86%A0%EB%A7%81/mainImage.JPG" width="70%" height="60%" title="프로그래밍공부" alt="프로그래밍_알아야 할 것들"></img>
+<img src="https://github.com/dddoseung/TIL/blob/master/HP%ED%94%84%EB%A6%B0%ED%8C%85%EC%BD%94%EB%A6%AC%EC%95%84%20%EB%A9%98%ED%86%A0%EB%A7%81/mainImage.JPG" width="90%" height="70%" title="프로그래밍공부" alt="프로그래밍_알아야 할 것들"></img>
 =====
 * * *
 **자료구조/알고리즘, 디자인패턴, 프레임워크, 프로토콜, 리팩토링 (제일 중요)**
