@@ -1,0 +1,22 @@
+거듭제곱 문제
+=========
+
+**분할정복**을 이용하면 시간복잡도를 개선할 수 있음_(O(logn))  
+    (ex) 
+ - 2<sup>8</sup>=2<sup>4</sup> * 2<sup>4</sup> ---> 2<sup>4</sup> = 2<sup>2</sup> * 2<sup>2</sup> ... (재귀)
+ * 2<sup>15</sup>=2<sup>7</sup> * 2<sup>7</sup> * 2 ---> 2<sup>7</sup> = 2<sup>3</sup> * 2<sup>3</sup> * 2 ... (재귀)
+ ****
+물론 재귀함수나 반복문으로 해결할 수 있지만 거듭제곱이 커질수록 성능이 낮아짐. _(O(n))_
+
+**그러므로, 거듭제곱 문제가 나오면 분할정복(+재귀함수)으로 풀자.**
+* * *
+
+func(long n, long s){   
+  long tmp = **func(n,s/2)**;   
+  (___long tmp2=tmp*tmp;___)   
+  
+  if(s == 1){.... return ..}   
+  else if(s%2 == 0){.... return ..}   
+  else{.... return ..}
+  
+}
